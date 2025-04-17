@@ -35,6 +35,9 @@ Final Submission Folder/
     └── model_resnet18_state_dict.pth
 
 
+<pre> ```text Final Submission Folder/ ├── realtime.py # Main file for real-time detection and CLI interface ├── models.ipynb # Notebook containing training and evaluation scripts ├── yolo_v8.pt # Pre-trained YOLOv8 model used for face detection and mask classification └── saved_models/ # Directory containing saved model weights ├── full_model_resnet18.pth ├── full_model_resnet50.pth ├── model_resnet50_state_dict.pth └── model_resnet18_state_dict.pth ``` </pre>
+
+
 - **realtime.py:**  
   This file initializes the `FaceMaskDetector` class which loads the selected model(s) based on the specified `model_choice`. It provides functionality to:
   - Download necessary DNN files for face detection.

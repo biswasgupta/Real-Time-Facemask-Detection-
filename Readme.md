@@ -23,7 +23,7 @@ This system is designed to detect face masks in real time using a combination of
 - **User-Friendly CLI:** Simple command-line interface for selecting detection modes and processing images.
 
 ## Project Structure
-
+<pre> ``` 
 Final Submission Folder/
 ├── realtime.py               # Main file for real-time detection and CLI interface
 ├── models.ipynb              # Notebook containing training and evaluation scripts
@@ -33,9 +33,7 @@ Final Submission Folder/
     ├── full_model_resnet50.pth
     ├── model_resnet50_state_dict.pth
     └── model_resnet18_state_dict.pth
-
-
-<pre> ```text Final Submission Folder/ ├── realtime.py # Main file for real-time detection and CLI interface ├── models.ipynb # Notebook containing training and evaluation scripts ├── yolo_v8.pt # Pre-trained YOLOv8 model used for face detection and mask classification └── saved_models/ # Directory containing saved model weights ├── full_model_resnet18.pth ├── full_model_resnet50.pth ├── model_resnet50_state_dict.pth └── model_resnet18_state_dict.pth ``` </pre>
+``` </pre>
 
 
 - **realtime.py:**  

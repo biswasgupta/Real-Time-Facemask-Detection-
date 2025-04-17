@@ -23,6 +23,7 @@ This system is designed to detect face masks in real time using a combination of
 - **User-Friendly CLI:** Simple command-line interface for selecting detection modes and processing images.
 
 ## Project Structure
+
 Final Submission Folder/
 ├── realtime.py               # Main file for real-time detection and CLI interface
 ├── models.ipynb              # Notebook containing training and evaluation scripts
